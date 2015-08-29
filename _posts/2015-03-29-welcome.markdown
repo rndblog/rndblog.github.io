@@ -62,7 +62,7 @@ Feel free to [fork this blog on a GitHub](https://github.com/rndblog/rndblog.git
 
 As for content, please preserve information about an author, this is required. Also I'd like to ask you to preserve information about origin (to let reader find main copy) and, if possible, send updates to this upstream.
 
-### I want to me a maintainer too
+### I want to be a maintainer too
 
 I see no better way then already used in open-source projects, when top contributors became mainteners. But if you feel that this is not for you - see previous section and good luck!
 
