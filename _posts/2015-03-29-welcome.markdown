@@ -57,7 +57,7 @@ This is open-source project, I'm just mainteiner and author of some articles. Yo
 
 ### Fine! I'll go build my own lunar lander, with blackjack and ....
 
-Feel free to [fork this blog on a GitHub](https://github.com/rndblog/rndblog.github.io) and don't forget to update settings.
+Feel free to [fork this blog on a GitHub](https://github.com/rndblog/rndblog.github.io) and don't forget to update settings. Also see [this article from my personal blog](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) for information about configuration and maintenance.
 
 As for content, please preserve information about an author, this is required. Also I'd like to ask you to preserve information about origin (to let reader find main copy) and, if possible, send updates to this upstream.
 
