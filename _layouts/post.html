@@ -80,7 +80,7 @@ post_class: post-template
 
         <footer class="post-footer">
             <!-- If we want to display author's name and bio -->
-            {% if page.author_name %}
+            {% if post.author_name %}
                 <figure class="author-image">
                     <a class="img" href="{{ post.author_url }}" style="background-image: url({% if post.author_image %}{{ post.author_image }}{% else %}/assets/images/profile.png{% endif %})">
                     <span class="hidden">{{post.author_name}}'s Picture</span></a>
@@ -102,7 +102,7 @@ post_class: post-template
                 </figure>
                 <section class="author">
                     <!-- Site Author Name -->
-                    <h4> {{ site.author }} </h4>
+                    <h4> {{ site.author }} {{ post.author_name }} {{ page.author_name }} ++ </h4>
                     {% if site.bio %}
                     <!-- Site Author Bio -->
                     <p> 
