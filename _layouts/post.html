@@ -87,7 +87,12 @@ post_class: post-template
                 </figure>
                 <section class="author">
                     <!-- Post Author Name -->
-                    <h4> {{ page.author_name }} </h4>
+                    {% if page.author_url %}
+                	<a href="{{ page.author_url }}"><h4> {{ page.author_name }} </h4></a>
+                    {% else %}
+                	<h4> {{ page.author_name }} </h4>
+                    {% endif%}
+                    
                     {% if page.author_bio %}
                     <!-- Post Author Bio -->
                     <p> 
