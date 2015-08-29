@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "How to edit this blog"
-date:   2015-08-29 02:12:00
+date:   2015-08-29 03:48:00
 categories: Common
 comments: true
 ---
+
+How to edit
 
 For the last few years a lot of my colleagues, experienced engineers and beginners, asked me same questions many times.
 A lot of information was shared by me in personal and group conversations or even recorded.
