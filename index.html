@@ -48,7 +48,11 @@ about: 'about.html'
 
             {% if post.author_name %}
                 <img class="author-thumb" src="{% if post.author_image %}{{ post.author_image}}{% else %}/assets/images/profile.png{% endif %}" alt="Author's profile picture" nopin="nopin" />
-                {{ post.author_name }}
+        	{% if post.author_url %}
+        	    <a href="{{ post.author_url}}">{{ post.author_name }}</a>
+        	{% else %}
+            	    {{ post.author_name }}
+            	{% endif%}    
             {% elsif site.author %}
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
