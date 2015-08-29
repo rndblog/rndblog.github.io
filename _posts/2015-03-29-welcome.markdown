@@ -20,12 +20,12 @@ And one more thing, every article is marked with an author details plus list of 
 
 ### What?! Again!
 
-Yes, folks, some time ago I've [started my personal technical technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and created few articles. 
+Yes, folks, some time ago I've [started my personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and created few articles. 
 
 Few months later, as many of blog's owners, I've realized that
-- articles may be innacurate or contain mistakes
-- articles become outdated after some time
-- somebody may have more knowledge than you on some topics, so reader potentially can improve article
+  - articles may be innacurate or contain mistakes
+  - articles become outdated after some time
+  - somebody may have more knowledge than you on some topics, so reader potentially can improve article
 
 After some thought I decided, that I need a simple workflow to let readers improve my articles and also I need some way to review their changes and merge. **But wait!.. It's looks like code project!** 
 
