@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog posts can be open-source and up-to-date!
+title: Blog can be open-source like software!
 ---
 
 #### ... and a bit more about this particular one
