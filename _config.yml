@@ -1,0 +1,15 @@
+name: Open-source (GIT!) blog about R&D in Software Development, Management and Architecture
+description: Notes and articles on High Load, Big Data, Java, Architecture, R&D and Management which you can create, edit and discuss as GitHub project
+meta_description: "Open-source notes and articles on High Load, Big Data, Java, Architecture and Management"
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://rndblog.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Details for the RSS feed generator
+url:            'http://rndblog.github.io'
+author:         'R&D Blog'

@@ -1,0 +1,15 @@
+name: Blog Name
+description: Blog Description
+meta_description: "Blog Meta Description"
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://<your_blog.url>'
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Details for the RSS feed generator
+url:            'http://<your_blog.url>'
+author:         'Your Name'
