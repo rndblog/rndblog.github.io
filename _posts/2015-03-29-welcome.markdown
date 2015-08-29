@@ -10,15 +10,51 @@ author_image: "http://sotnikdv.github.io/assets/images/profile.png"
 author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can find me also in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 
-For the last few years a lot of my colleagues, experienced engineers and beginners, asked me same questions many times.
-A lot of information was shared by me in personal and group conversations or even recorded.
+### What?! Again!
 
-So guys, that's it. I decided to create the technical blog, as many of you proposed to me.
+Yes, folks, some time ago I've [started my personal technical technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and created few articles. 
 
-### TODO
+Few months later, as many of blog's owners, I've realized that
+- articles may be innacurate or contain mistakes
+- articles become outdated after some time
+- somebody may have more knowledge than you on some topics, so reader potentially can improve article
 
-TODO
+After some thought I decided, that I need a simple workflow to let readers improve my articles and also I need some way to review their changes and merge. **But wait!.. It's looks like code project!** 
 
-### How to Subscribe
+[_If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck_](https://en.wikipedia.org/wiki/Duck_test). If I need workflow, like in open-source code project, **let my blog be the open-sorce repository-based project!** Simple enough.
 
-You can use <a href="/rss.xml">RSS</a> feed.
+Moreover, why it should be personal? Let it be truly open-source project, so every article will have an author and list of editors.
+
+This is why I created this blog and now migrating my articles from my personal.
+
+**So, we are waiting for you pull requests.**
+
+### I have my own personal blog, I don't want to work for you!
+
+At least, this blog will allow **you** to change **my** articles, if you'll found mistake or want to make them better. And I'll add you to the list of contributors.
+
+But if you faced the same issues with your personal blog and you want to create your article in editable and collaborative blog - feel free to send pull request. Such article will be marked with your name, profile photo and URL to your site. And you can create re-post in your personal blog, up to you.
+
+### What's your interest?
+
+Same as many other open-source project's contributors - just for fun. I'm trying to make my own articles better and let people edit them, after some thoughts I decided to migrate from personal blog to collaborative.
+
+### Who will merge changes?
+
+As most of open-source projects - maintainers. Currently it's only me.
+
+### So, this is your blog!
+
+This is open-source project, you can fork it and change until you are following [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/). Keep information about an authors and feel free to evolve.
+
+### Fine! I'll go build my own lunar lander, with blackjack and ....
+
+
+And if you want to make this quickly - just [fork this blog on a GitHub](https://github.com/rndblog/rndblog.github.io and don't forget to update settings).
+
+As for articles, please preserve information about an author, this is required. Also I'd like to ask you to preserve information about origin (to let reader find main copy) and, if possible, send updates to this upstream.
+
+### I want to me a maintainer too
+
+I see no better way then already used in open-source projects, when top contributors became maintener.
+
