@@ -1,5 +1,5 @@
-name: Open R&D blog
-description: Now you can improve not only your posts. All about Software Development, Big Data, Architecture and Management
+name: Software R&D blog
+description: Now you can improve our posts.
 meta_description: "Open-source notes and articles on High Load, Big Data, Java, Architecture and Management"
 
 markdown: redcarpet
