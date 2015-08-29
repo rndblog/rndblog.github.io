@@ -62,8 +62,16 @@ about: 'about.html'
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
             {% endif %}
+            
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
+                {% if post.update %}
+	            {% capture temp_day_created %}{{ post.date | date:"%Y-%m-%d" }}{% endcapture %}
+	            {% capture temp_day_updated %}{{ post.update | date:"%Y-%m-%d" }}{% endcapture %}
+            	    {% if temp_day_created != temp_day_updated %}
+            		{{ post.update | date_to_string | prepend: ', updated' }}
+            	    {% endif %}
+                {% endif %}
             </time> 
         </footer>
     </article>
