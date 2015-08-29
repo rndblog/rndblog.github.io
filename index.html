@@ -69,7 +69,7 @@ about: 'about.html'
 	            {% capture temp_day_created %}{{ post.date | date:"%Y-%m-%d" }}{% endcapture %}
 	            {% capture temp_day_updated %}{{ post.update | date:"%Y-%m-%d" }}{% endcapture %}
             	    {% if temp_day_created != temp_day_updated %}
-            		{{ post.update | date_to_string | prepend: ', updated' }}
+            		{{ post.update | date_to_string | prepend: ', updated ' }}
             	    {% endif %}
                 {% endif %}
             </time> 
