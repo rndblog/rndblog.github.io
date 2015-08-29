@@ -6,7 +6,6 @@ title: About the project
 
 #### Blog can be the open-source!
 <br/>
-<br/>
 Welcome to  one more blog about Research in IT, from Management to Architecture. But wait...
 
 **This particular one is an open-source project, based on the GitHub!**
