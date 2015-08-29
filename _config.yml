@@ -4,7 +4,7 @@ meta_description: "Open-source notes and articles on High Load, Big Data, Java, 
 
 markdown: redcarpet
 highlighter: pygments
-logo: '/assets/images/profile.png'
+logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://rndblog.github.io'
