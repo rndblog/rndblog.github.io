@@ -5,9 +5,10 @@ meta_description: "Open-source notes and articles on High Load, Big Data, Java, 
 markdown: redcarpet
 highlighter: pygments
 logo: false
-cover: false
+cover: true
 paginate: 15
 baseurl: /
+disqus_shortname: rndblog-github
 domain_name: 'http://rndblog.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 
