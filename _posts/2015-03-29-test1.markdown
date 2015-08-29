@@ -3,7 +3,7 @@ layout: post
 title:  "How to edit this blog1"
 date:   2015-08-29 03:48:00
 categories: Common
-comments: true
+comments: false
 ---
 
 How to edit
