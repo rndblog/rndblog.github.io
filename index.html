@@ -46,9 +46,9 @@ about: 'about.html'
         <footer class="post-meta">
 
 
-            {% if post.author %}
+            {% if post.author_name %}
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
-                {{ post.author }}
+                {{ post.author_name }}
             {% elsif site.author %}
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
