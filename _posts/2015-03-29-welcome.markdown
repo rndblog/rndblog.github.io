@@ -39,13 +39,13 @@ This is why I created this blog and now migrating my articles to it.
 
 ### I have my own personal blog, I don't want to work for you!
 
-At least, this blog will allow **you** to change **my** articles, if you'll found mistake or want to make them better. And I'll add you to the list of contributors.
+At least, this blog will allow **you** to change **my** articles, if you'll find mistake or want to make them better. And I'll add you to the list of contributors.
 
-But if you faced the same issues with your personal blog and you want to create your article in editable and collaborative blog - feel free to send pull request. Such article will be marked with your name, profile photo and URL to your site. And you can create re-post in your personal blog, up to you.
+But if you have the same concern about your personal blog and you want to create your article in editable and collaborative blog - feel free to send pull request. Such article will be marked with your name, profile photo and URL to your site. And you may create re-post to your personal blog, up to you.
 
 ### What's your interest?
 
-Same as many other open-source project's contributors - just for fun. I'm trying to make my own articles better and let people edit them, after some thoughts I decided to migrate from personal blog to collaborative.
+I'm trying to make my own articles better and let people edit them, after some thoughts I decided to migrate from personal blog to collaborative.
 
 ### Who will merge changes?
 
@@ -53,16 +53,15 @@ As most of open-source projects - maintainers. Currently it's only me.
 
 ### So, this is your blog!
 
-This is open-source project, you can fork it and change until you are following [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/). Keep information about an authors and feel free to evolve.
+This is open-source project, I'm just mainteiner and author of some articles. You can fork it and change until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content. Keep information about an authors and feel free to evolve.
 
 ### Fine! I'll go build my own lunar lander, with blackjack and ....
 
+Feel free to [fork this blog on a GitHub](https://github.com/rndblog/rndblog.github.io) and don't forget to update settings.
 
-And if you want to make this quickly - just [fork this blog on a GitHub](https://github.com/rndblog/rndblog.github.io and don't forget to update settings).
-
-As for articles, please preserve information about an author, this is required. Also I'd like to ask you to preserve information about origin (to let reader find main copy) and, if possible, send updates to this upstream.
+As for content, please preserve information about an author, this is required. Also I'd like to ask you to preserve information about origin (to let reader find main copy) and, if possible, send updates to this upstream.
 
 ### I want to me a maintainer too
 
-I see no better way then already used in open-source projects, when top contributors became maintener.
+I see no better way then already used in open-source projects, when top contributors became mainteners. But if you feel that this is not for you - see previous section and good luck!
 
