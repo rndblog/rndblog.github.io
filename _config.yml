@@ -1,5 +1,5 @@
-name: Open-source (GIT!) blog about R&D in Software Development, Management and Architecture
-description: Notes and articles on High Load, Big Data, Java, Architecture, R&D and Management which you can create, edit and discuss as GitHub project
+name: Open-source (GIT!) blog about R&D in Software Development and Architecture
+description: Collaborative notes and articles on Development, Big Data, Architecture, R&D and Management which you can evolve and make better.
 meta_description: "Open-source notes and articles on High Load, Big Data, Java, Architecture and Management"
 
 markdown: redcarpet

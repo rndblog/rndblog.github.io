@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About the project
+title: Blog can be open-source!
 ---
 
 
-#### Blog can be the open-source!
+#### Learn more about the project
 
 Welcome to  one more blog about Research in IT, from Management to Architecture. But wait...
 
