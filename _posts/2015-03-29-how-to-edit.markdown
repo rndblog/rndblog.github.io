@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Welcome, folks"
+title:  "How to edit this blog"
 date:   2015-08-29 02:12:00
 categories: Common
 comments: true
-author_name: "Test author name"
-author_url: "http://itdevel.com"
-author_image: "http://sotnikdv.github.io/assets/images/profile.png"
-author_bio: "Test author bio"
 ---
 
 For the last few years a lot of my colleagues, experienced engineers and beginners, asked me same questions many times.
