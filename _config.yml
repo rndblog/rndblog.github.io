@@ -12,7 +12,9 @@ disqus_shortname: rndblog-github
 domain_name: 'http://rndblog.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 
-# Details for the RSS feed generator
-url:            'http://rndblog.github.io'
 author:         'R&D Blog'
 bio:		'Open-source notes and articles on High Load, Big Data, Java, Architecture and Management'
+
+# Details for the RSS feed generator
+url:            'http://rndblog.github.io'
+name:		'R&D Blog'
