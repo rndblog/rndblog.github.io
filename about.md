@@ -13,7 +13,7 @@ Welcome to  one more blog about Research in IT, from Management to Architecture.
 
 So if you <S>_want to fix a bug_</S> found mistake, or outdated information or you want to <S>_implement new feature_</S> add something to an article - just go ahead and create pull request!
 
-Also this is not a personal, but collaborative blog, so you may contribute your own article to the articlebase. Open as Wikipedia, but with workflow as in open-source project. 
+This is collaborative blog, so you may contribute your own article to the articlebase. Open as Wikipedia, but with workflow as in open-source project. 
 
-And one more thing, every article will be marked with an author name and link plus list of editors, so you may include it to your professional profile. 
+And one more thing, every article is marked with an author details plus list of editors, so you may include it to your professional profile. 
 
