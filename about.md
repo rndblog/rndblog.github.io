@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog posts can be open-source!
+title: Blog posts can be open-source and up-to-date!
 ---
 
 #### ... and a bit more about this particular one
@@ -9,5 +9,5 @@ Welcome to  one more blog about Software Development, Big Data, Architecture and
 
 **This is the collaborative blog, open for changes like Wikipedia, but organized as GitHub open-source project. So now you are able to improve existing posts as well as create your own in the way you like!**
 
-If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new feature_</S> add more details to an article or even create your own open article - just go ahead with GitHub workflow and send us pull request!
+If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new feature_</S> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send us pull request!
 
