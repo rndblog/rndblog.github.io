@@ -18,6 +18,8 @@ This is collaborative blog, so you may contribute your own article to the articl
 
 And one more thing, every article is marked with an author details plus list of editors, so you may include it to your professional profile. 
 
+**So, we are waiting for you pull requests.**
+
 ### What?! Again!
 
 Yes, folks, some time ago I've [started my personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and created few articles. 
@@ -33,9 +35,7 @@ After some thought I decided, that I need a simple workflow to let readers impro
 
 Moreover, why it should be personal? Let it be truly open-source project, so every article will have an author and list of editors.
 
-This is why I created this blog and now migrating my articles from my personal.
-
-**So, we are waiting for you pull requests.**
+This is why I created this blog and now migrating my articles to it.
 
 ### I have my own personal blog, I don't want to work for you!
 
