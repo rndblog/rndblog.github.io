@@ -11,4 +11,4 @@ Yet another blog about Software Development, Big Data, Architecture and Manageme
 
 If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new feature_</S> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send us pull request!
 
-[Welcome, folks!](http://rndblog.github.io/common/2015/08/28/welcome.html)
+And if you still need some answers - please take a look at the [Welcome Arcticle](http://rndblog.github.io/common/2015/08/28/welcome.html)
