@@ -658,7 +658,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
-.no-cover .subscribe-button {
+.no-cover .subscribe-button .fork-button {
     background: none;
 }
 
@@ -667,7 +667,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
-.main-nav.overlay .subscribe-button {
+.main-nav.overlay .subscribe-button .fork-button {
     border-color: rgba(255,255,255,0.6);
 }
 
@@ -681,6 +681,10 @@ margin on the iframe, cause it breaks stuff. */
 /* Add a border to the buttons on hover */
 .back-button:hover,
 .subscribe-button:hover {
+    border-color: #bfc8cd;
+    color: #9EABB3;
+}
+.fork-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
 }
