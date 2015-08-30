@@ -12,7 +12,7 @@ author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can f
 ---
 
 
-Welcome to yet another blog about Software Development, Big Data, Architecture and Management. But we have something different...
+Welcome to yet another blog about Software Development, Big Data, Architecture and Management. But we have a difference...
 
 **This is the collaborative blog, open for changes like Wikipedia, but organized as GitHub open-source project. So now you are able to improve existing posts as well as create your own in the way you like**
 
@@ -20,14 +20,12 @@ If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new
 
 ### What?! Again!
 
-Do you remember your feelings when you read somebody's blog post and you inaccuracy, outdated facts or just a place which can be improved? Usually you just can't do this because you have to contact author and discuss how post may be improved. Then, if author have a time, post will be updated, maybe.
+Do you remember your feelings when you read somebody's blog post and found inaccuracies, outdated facts or just a places which can be improved? Usually you just can't do this because you have to contact author and discuss how post may be improved. Then, if author have a time, post will be updated, maybe.
 
-Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and wrote few articles. 
-
-Few months later, as many of other bloggers, I've realized that:
-  - articles may be innacurate or contain mistakes
-  - articles become outdated
-  - somebody may have more knowledge than you on some topics, so reader potentially can improve article
+Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and wrote few articles. Few months later, as many of other bloggers, I've realized that:
+   - articles may be innacurate or contain mistakes
+   - articles become outdated
+   - somebody may have more knowledge than you on some topics, so reader potentially can improve article
 
 **I spent a lot of time to create some of my articles and now I was faced with a choice: keep them locked in my personal blog with possible inaccuracies and rapidly aging or contribute them to community and let people improve them.** 
 
