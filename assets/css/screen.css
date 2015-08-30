@@ -658,7 +658,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
-.no-cover .subscribe-button .fork-button {
+.no-cover .subscribe-button,
+.no-cover .fork-button {
     background: none;
 }
 
@@ -667,7 +668,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
-.main-nav.overlay .subscribe-button .fork-button {
+.main-nav.overlay .subscribe-button,
+.main-nav.overlay .fork-button, {
     border-color: rgba(255,255,255,0.6);
 }
 
@@ -680,10 +682,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
-.subscribe-button:hover {
-    border-color: #bfc8cd;
-    color: #9EABB3;
-}
+.subscribe-button:hover,
 .fork-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
@@ -724,7 +723,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
-.no-cover .main-nav.overlay .subscribe-button {
+.no-cover .main-nav.overlay .subscribe-button,
+.no-cover .main-nav.overlay .fork-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }
@@ -1517,7 +1517,8 @@ body:not(.post-template) .post-title {
     }
 
     .back-button,
-    .subscribe-button {
+    .subscribe-button,
+    .fork-button {
         height: 44px;
         line-height: 41px;
         border-radius: 0;
@@ -1525,7 +1526,8 @@ body:not(.post-template) .post-title {
         background: transparent;
     }
     .back-button:hover,
-    .subscribe-button:hover {
+    .subscribe-button:hover,
+    .fork-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
@@ -1535,7 +1537,8 @@ body:not(.post-template) .post-title {
         padding: 0 15px 0 10px;
     }
 
-    .subscribe-button {
+    .subscribe-button,
+    .fork-button {
         padding: 0 12px;
     }
 
@@ -1549,12 +1552,15 @@ body:not(.post-template) .post-title {
         background: none;
     }
     .no-cover .main-nav.overlay .back-button,
-    .no-cover .main-nav.overlay .subscribe-button {
+    .no-cover .main-nav.overlay .subscribe-button,
+    .no-cover .main-nav.overlay .fork-button
+     {
         border: none;
     }
 
     .main-nav.overlay .back-button,
-    .main-nav.overlay .subscribe-button {
+    .main-nav.overlay .subscribe-button,
+    .main-nav.overlay .fork-button {
         border-color: transparent;
     }
 
