@@ -22,12 +22,12 @@ If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new
 
 Do you remember your feelings when you read somebody's blog post and found inaccuracies, outdated facts or just a places which can be improved? Usually you just can't do this because you have to contact author and discuss how post may be improved. Then, if author have a time, post will be updated, maybe.
 
-Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and wrote few articles. Few months later, as many of other bloggers, I've realized that:
+Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html), wrote few articles and proposed to my colleagues do the same. Few months later, as many of other bloggers, I've realized that:
    - articles may be innacurate or contain mistakes
    - articles become outdated
    - somebody may have more knowledge than you on some topics, so reader potentially can improve article
 
-**I spent a lot of time to create some of my articles and now I was faced with a choice: keep them locked in my personal blog with possible inaccuracies and rapidly aging or contribute them to community and let people improve them.** 
+**I spent a lot of time to create some of my articles and now I was faced with a choice: keep them locked in my personal blog until they will become outdated or contribute them to community and let people improve them.** 
 
 So I decided to establish some kind of process to let readers improve articles. Also I have need review and merge process on my side. **But wait!.. If we need workflow similar to open-source code project, let's create blog as the open-sorce repository-based project!**
 
@@ -37,19 +37,19 @@ This is why this project was created and now I'm migrating my posts to it.
 
 ### I have my own personal blog, I don't want to work for THIS blog!
 
-At least, this blog will allow **you** to change **existing** articles, if you'll find mistake or want to make them better. In this case you'll be added to the list of contributors for this article.
+At least, this project will allow **you** to change **existing** posts, if you'll find mistake or want to make them better. In this case you'll be added to the list of contributors for this article.
 
 But if you have the same concern about your personal blog and you want to create your article in open-source way - feel free to join and send pull request. And don't forget to mark your article with your name, photo and URL to your site. Also you may create re-post to your personal blog as I do.
 
 ### So, this is YOUR blog!
 
-Key difference that there is no your or my blog here, it's open-source project. Nevertheless, there are articles from different authors with a list of contributors.
+This project was **started** by me but not belongs to me. There is no your or my blog here, there are articles from different authors with a list of editors.
 
-I'm just mainteiner and author of some articles. You can fork it and change until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content. Keep information about an authors and feel free to evolve.
+I'm just mainteiner of the project and author of some articles. You can take participation or you can fork it until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content.
 
 ### Yet another blogging platform?
 
-Of course not. Forget about blogging platforms, it's the GitHub open-source project, focused on posts. So you can edit any posts, work with GIT repository, send pull requests and even fork the project.
+Forget about blogging platforms, it's the GitHub open-source project, focused on posts instead of code. So you can edit any posts, work with GIT repository, send pull requests or fork the project.
 
 ### Who will merge changes?
 
