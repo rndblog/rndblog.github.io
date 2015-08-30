@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome, folks"
+title:  "Welcome to yet another technical blog, this time open-source!"
 date:   2015-08-28 23:50:00
 update: 2015-08-29 05:30:00
 categories: Common
@@ -12,57 +12,58 @@ author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can f
 ---
 
 
-Welcome to  one more blog about Research in IT, from Management to Architecture. But wait...
+Welcome to yet another blog about Software Development, Big Data, Architecture and Management. But we have something different...
 
-**This is collaborative blog, open as Wikipedia, but with workflow as in open-source project. So now you can make better existing posts or create your own.**
+**This is the collaborative blog, open for changes like Wikipedia, but organized as GitHub open-source project. So now you are able to improve existing posts as well as create your own in the way you like**
 
-If you <S>_want to fix a bug_</S> found mistake, or outdated information or you want to <S>_implement new feature_</S> add something to an article - just go ahead and create pull request!
-
-And one more thing, every article is marked with an author details plus list of editors, so you may include it to your professional profile. 
-
+If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new feature_</S> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send us [pull request](https://help.github.com/articles/creating-a-pull-request/)!
 
 ### What?! Again!
 
-Yes, folks, some time ago I've [started my personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and created few articles. 
+Do you remember your feelings when you read somebody's blog post and you inaccuracy, outdated facts or just a place which can be improved? Usually you just can't do this because you have to contact author and discuss how post may be improved. Then, if author have a time, post will be updated, maybe.
 
-Few months later, as many of blog's owners, I've realized that
+Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html) and wrote few articles. 
+
+Few months later, as many of other bloggers, I've realized that:
   - articles may be innacurate or contain mistakes
-  - articles become outdated after some time
+  - articles become outdated
   - somebody may have more knowledge than you on some topics, so reader potentially can improve article
 
-After some thought I decided, that I need a simple workflow to let readers improve my articles and also I need some way to review their changes and merge. **But wait!.. It's looks like code project!** 
+**I spent a lot of time to create some of my articles and now I was faced with a choice: keep them locked in my personal blog with possible inaccuracies and rapidly aging or contribute them to community and let people improve them.** 
 
-[_If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck_](https://en.wikipedia.org/wiki/Duck_test). If I need workflow, like in open-source code project, **let my blog be the open-sorce repository-based project!** Simple enough.
+So I decided to establish some kind of process to let readers improve articles. Also I have need review and merge process on my side. **But wait!.. If we need workflow similar to open-source code project, let's create blog as the open-sorce repository-based project!**
 
-Moreover, why it should be personal? Let it be truly open-source project, so every article will have an author and list of editors.
+And if it's open-source project, then it shouldn't be personal, let other people add their own articles and let every article have an author and list of editors.
 
-This is why I created this blog and now migrating my articles to it.
+This is why this project was created and now I'm migrating my posts to it.
 
-### I have my own personal blog, I don't want to work for you!
+### I have my own personal blog, I don't want to work for THIS blog!
 
-At least, this blog will allow **you** to change **my** articles, if you'll find mistake or want to make them better. And I'll add you to the list of contributors.
+At least, this blog will allow **you** to change **existing** articles, if you'll find mistake or want to make them better. In this case you'll be added to the list of contributors for this article.
 
-But if you have the same concern about your personal blog and you want to create your article in editable and collaborative blog - feel free to send pull request. Such article will be marked with your name, profile photo and URL to your site. And you may create re-post to your personal blog, up to you.
+But if you have the same concern about your personal blog and you want to create your article in open-source way - feel free to join and send pull request. And don't forget to mark your article with your name, photo and URL to your site. Also you may create re-post to your personal blog as I do.
 
-### What's your interest?
+### So, this is YOUR blog!
 
-I'm trying to make my own articles better and let people edit them, after some thoughts I decided to migrate from personal blog to collaborative.
+Key difference that there is no your or my blog here, it's open-source project. Nevertheless, there are articles from different authors with a list of contributors.
+
+I'm just mainteiner and author of some articles. You can fork it and change until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content. Keep information about an authors and feel free to evolve.
+
+### Yet another blogging platform?
+
+Of course not. Forget about blogging platforms, it's the GitHub open-source project, focused on posts. So you can edit any posts, work with GIT repository, send pull requests and even fork the project.
 
 ### Who will merge changes?
 
-As most of open-source projects - maintainers. Currently it's only me.
-
-### So, this is your blog!
-
-This is open-source project, I'm just mainteiner and author of some articles. You can fork it and change until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content. Keep information about an authors and feel free to evolve.
+As most of open-source projects - maintainers. Currently it's only me, but I hope this will be changed soon.
 
 ### Fine! I'll go build my own lunar lander, with blackjack and ....
 
-Feel free to [fork this blog on a GitHub](https://github.com/rndblog/rndblog.github.io) and don't forget to update settings. Also see [this article from my personal blog](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) for information about configuration and maintenance.
+Feel free to [fork this blog on the GitHub](https://github.com/rndblog/rndblog.github.io) and don't forget to update configuration. Also see [this article from my personal blog](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) for information about configuration and maintenance.
 
-As for content, please preserve information about an author, this is required. Also I'd like to ask you to preserve information about origin (to let reader find main copy) and, if possible, send updates to this upstream.
+As for content, please preserve information about an authors, this is required by the license. Also I'd like to kindly ask you to preserve information about origin (to let reader find a main copy) and, if possible, send updates to this upstream.
 
 ### I want to be a maintainer too
 
-I see no better way then already used in open-source projects, when top contributors became mainteners. But if you feel that this is not for you - see previous section and good luck!
+I see no better way then already used in open-source projects, when top contributors became mainteners. But if you really feel that you don't want to rely on existing process and maintainers - fork it!
 
