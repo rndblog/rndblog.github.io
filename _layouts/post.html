@@ -55,6 +55,12 @@ post_class: post-template
         <!-- <h1 class="post-title">{{ page.title }}</h1> -->
 
         <section class="post-content">
+
+            <!-- Edit note -->
+            {% if site.editable != false and page.editable != false %}
+                {% include edit_note.html %}
+            {% endif %}
+
             {{content}}
         </section>
         
@@ -109,13 +115,13 @@ post_class: post-template
                 </section>                
             {% endif %}
 
-
-
-
-
-
             <!-- Share links section -->
             {% include share.html %}
+
+            <!-- Edit note -->
+            {% if site.editable == false or page.editable == false %}
+                {% include noedit_note.html %}
+            {% endif %}
             
             <!-- Disqus comments -->
             {% if page.disqus %}

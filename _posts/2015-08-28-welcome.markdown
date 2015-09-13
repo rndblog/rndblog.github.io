@@ -9,12 +9,11 @@ author_name: "Dmytro Sotnyk"
 author_url: "http://sotnikdv.github.io"
 author_image: "http://sotnikdv.github.io/assets/images/profile.png"
 author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can find me also in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
+editable: false
 ---
 
 
-Welcome to yet another blog about Software Development, Big Data, Architecture and Management. But we have a difference...
-
-This is the **collaborative** blog, **open for changes** like Wikipedia, but organized as **GitHub open-source project**. So now you are able to **improve existing posts** as well as **create your own** in the way you like.
+Welcome to yet another blog about Software Development, Big Data, Architecture and Management. But we have a difference... This is the **collaborative** blog, **open for changes** like Wikipedia, but organized as **GitHub open-source project**. So now you are able to **improve existing posts** as well as **create your own** in the way you like.
 
 So if you <s><i>want to fix a bug</i></s> found mistake or you want to <s><i>implement new feature</i></s> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send us [pull request](https://help.github.com/articles/creating-a-pull-request/)!
 

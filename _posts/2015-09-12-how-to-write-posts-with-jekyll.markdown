@@ -10,7 +10,7 @@ author_image: "http://sotnikdv.github.io/assets/images/profile.png"
 author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can find me also in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 
-In this article we will be focused on how to write/edit/preview posts with Jekyll usage:
+This post will explain how to create your articles with Markdown, Jekyll and GitHub which is a simple way to start your own blog or edit posts on this resource. We will be focused on how to write/edit/preview posts with Jekyll:
 
 1. How to create Jekyll configuration
 1. How to write posts in **Markdown** syntax
