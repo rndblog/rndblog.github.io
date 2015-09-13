@@ -14,54 +14,105 @@ author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can f
 
 Welcome to yet another blog about Software Development, Big Data, Architecture and Management. But we have a difference...
 
-**This is the collaborative blog, open for changes like Wikipedia, but organized as GitHub open-source project. So now you are able to improve existing posts as well as create your own in the way you like**
+This is the **collaborative** blog, **open for changes** like Wikipedia, but organized as **GitHub open-source project**. So now you are able to **improve existing posts** as well as **create your own** in the way you like.
 
-If you <S>_want to fix a bug_</S> found mistake or you want to <S>_implement new feature_</S> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send us [pull request](https://help.github.com/articles/creating-a-pull-request/)!
+So if you <s><i>want to fix a bug</i></s> found mistake or you want to <s><i>implement new feature</i></s> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send us [pull request](https://help.github.com/articles/creating-a-pull-request/)!
 
-### What?! Again!
+* TOC
+{:toc}
 
-Do you remember your feelings when you read somebody's blog post and found inaccuracies, outdated facts or just a places which can be improved? Usually you just can't do this because you have to contact author and discuss how post may be improved. Then, if author have a time, post will be updated, maybe.
+### What's the main idea?
 
-Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html), wrote few articles and proposed to my colleagues do the same. Few months later, as many of other bloggers, I've realized that:
-   - articles may be innacurate or contain mistakes
-   - articles become outdated
-   - somebody may have more knowledge than you on some topics, so reader potentially can improve article
+Do you remember your feelings when you read somebody's blog post and found mistakes, outdated facts or just a places which can be improved?
 
-**I spent a lot of time to create some of my articles and now I was faced with a choice: keep them locked in my personal blog until they will become outdated or contribute them to community and let people improve them.** 
+Some time ago I've created my [personal technical blog](http://sotnikdv.github.io/common/2015/03/29/welcome.html). Few months later, as many of other bloggers, I've realized that:
 
-So I decided to establish some kind of process to let readers improve articles. Also I have need review and merge process on my side. **But wait!.. If we need workflow similar to open-source code project, let's create blog as the open-sorce repository-based project!**
+   - my articles may contain mistakes, but readers need to contact me directly and explain what's wrong
+   - somebody may have more knowledge than me on some topics, so reader potentially can improve article
+   - things are changing, so I need to keep articles up to date
 
-And if it's open-source project, then it shouldn't be personal, let other people add their own articles and let every article have an author and list of editors.
+I spent a lot of time to write my articles and now I was faced with a choice: **keep them locked in my personal blog or contribute them to community and let people improve them**. I decided to contribute.
+
+So I decided to establish some kind of process to let readers improve articles, something with review and merge process on my side. 
+
+**But wait!..**  
+
+1. If we need workflow similar to open-source code project, let's create blog as the open-sorce repository-based project!
+2. If it's open-source project, then it shouldn't be personal, let other people add their own articles and let every article have an author and list of editors.
 
 This is why this project was created and now I'm migrating my posts to it.
 
-### I have my own personal blog, I don't want to work for THIS blog!
+### Frequently Asked Questions and statements
 
-At least, this project will allow **you** to change **existing** posts, if you'll find mistake or want to make them better. In this case you'll be added to the list of contributors for this article.
+#### I have my own personal blog, I don't want to work for THIS blog!
 
-But if you have the same concern about your personal blog and you want to create your article in open-source way - feel free to join and send pull request. And don't forget to mark your article with your name, photo and URL to your site. Also you may create re-post to your personal blog as I do.
+At least, this project will allow **you** to change **somebody's** posts, if you'll find mistake or want to make them better. In this case **you'll be added to the list of editors of an article**.
 
-### So, this is YOUR blog!
+But if you have the same concern about your personal blog and you want to create your article in open-source way and make it live - feel free to join and send pull request (or fork, see below). 
 
-This project was **started** by me but not belongs to me. There is no your or my blog here, there are articles from different authors with a list of editors.
+Your article will be signed with your name, photo and URL to your site ([see header of this post](https://raw.githubusercontent.com/rndblog/rndblog.github.io/master/_posts/2015-08-28-welcome.markdown)). Also you may create re-post to your personal blog as I do.
 
-I'm just mainteiner of the project and author of some articles. You can take participation or you can fork it until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content.
+#### So, this is YOUR blog!
 
-### Yet another blogging platform?
+This **project** was **started** by me, but this is not my blog. 
 
-Forget about blogging platforms, it's the GitHub-based open-source project, focused on posts instead of code. So you can edit any posts, work with GIT repository, send pull requests or fork the project.
+Project consists two parts, engine and content. I'm just maintainer of both parts and author of some articles.
 
-### Who will merge changes?
+You can take participation and make your contribution or you can fork it until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content.
+
+#### Yet another blogging platform?
+
+Wish I could create article on some existing blogging platform and **allow people to change it** with review/merge process. Unfortunately, I found no existing solutions.
+
+So let's forget about blogging platforms, it's the GitHub-based open-source project, focused on posts instead of code. So you can edit any posts, work with GIT repository, send pull requests or fork the project.
+
+#### Yet another wiki?
+
+Are you able to include link to wiki's article to your professional profile? Declare that "I'm the author of this article" or "I'm the editor of this article"? 
+
+Is wiki article signed with your name, photo and URL?
+
+#### Who will merge changes?
 
 As most of open-source projects - maintainers. Currently it's only me, but I hope this will be changed soon.
 
-### Fine! I'll go build my own lunar lander, with blackjack and ....
+#### Commercial?
+
+Open-source, Luke! On the GitHub pages. Content is under [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/), it can't be used for **any** commercial activity.
+
+Even if someday I'll change my mind, the only thing I can do is to close this **instance** of the project. Any participant or reader will continue with a fork.
+
+#### What's your rights on MY articles
+
+Hmmm, well, almost the same as **YOUR** rights on **my** articles. The only difference, as the author, I can distribute **my** content **also** under any other licenses or for commercial purposes somewhere else ('cause content of this site under [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+#### What if you'll change license?
+
+That's not possible, I can only publish **my** **new** posts under another license.
+
+#### Well, I think you'll get some profit from me and this project!
+
+Which one? Will include an article, signed by your name, to my professional resume? "Dumb ways to die", now in professional area?
+
+If you'll find how to make profit on **my** articles from this blog - please let me know.
+
+#### I don't trust you!
+
+Heh, man, that's open-source! It's not the question of a trust to me, it's a question of a trust to open-source idea, open-source licenses and GitHub as the platform.
+
+You are playing by the open-source rules and we are in the same boat. The only difference - I'm maintainer and can **reject** pull requests. If you don't trust me as maintainer - just fork it!
+
+#### What if you'll change author on my article and set YOUR name, for example?
+
+Content is under [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/). **Authorship is permanent**.
+
+#### "Fine! I'll go build my own lunar lander, with blackjack and ...."
 
 Feel free to [fork this blog on the GitHub](https://github.com/rndblog/rndblog.github.io) and don't forget to update configuration. Also see [this article from my personal blog](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) for information about configuration and maintenance.
 
 As for content, please preserve information about an authors, this is required by the license. Also I'd like to kindly ask you to preserve information about origin (to let reader find a main copy) and, if possible, send updates to this upstream.
 
-### I want to be a maintainer too
+#### I want to be a maintainer too
 
-I see no better way then already used in open-source projects, when top contributors became mainteners. But if you really feel that you don't want to rely on existing process and maintainers - fork it!
+I see no better way then already used in open-source projects, when top contributors became maintainers. But if you really feel that you don't want to rely on existing process and maintainers - fork it!
 
