@@ -200,3 +200,11 @@
 	text-shadow: 0 1px 0 rgba(255,255,255,0.25);
 	top: 8px;
 }
+
+p~ul {
+	margin-top: -1.2em;
+}
+
+ul p {
+	margin-bottom: 0em;
+}
