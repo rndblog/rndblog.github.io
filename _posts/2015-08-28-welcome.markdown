@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to yet another technical blog, this time open-source!"
 date:   2015-08-28 23:50:00
-update: 2015-09-12 22:30:00
+update: 2015-09-12 23:18:00
 categories: Common
 comments: true
 author_name: "Dmytro Sotnyk"

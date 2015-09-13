@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to write and edit posts with Markdown, Jekyll and GitHub pages"
-date:   2015-09-12 21:41:00
+date:   2015-09-12 23:10:00
 categories: Common
 comments: true
 author_name: "Dmytro Sotnyk"
@@ -59,7 +59,7 @@ Well, you can create your own project from scratch by `jekyll new myblogfolder` 
 
 
 
-I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made some changes to templates and CSS to add more information about an author, TOC etc. So, If you like congiguration of this blog, [fork it on a GitHub](https://github.com/rndblog/rndblog.github.io) and **don't forget** to [update configuration](https://github.com/rndblog/rndblog.github.io/blob/master/README.md)
+I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made some changes to templates and CSS to add more information about an author, last update time, TOC etc. So, If you like congiguration of this blog, [fork it on a GitHub](https://github.com/rndblog/rndblog.github.io) and **don't forget** to [update configuration](https://github.com/rndblog/rndblog.github.io/blob/master/README.md)
 
 ## How to write posts in Markdown
 
