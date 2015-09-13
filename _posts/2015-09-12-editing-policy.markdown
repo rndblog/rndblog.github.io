@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post's editing policy"
+title:  "Post's editing policy on this resource"
 date:   2015-09-13 02:46:00
 categories: Common
 comments: true
@@ -11,7 +11,12 @@ author_image: "http://sotnikdv.github.io/assets/images/profile.png"
 author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can find me also in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 
-This post will explain how to edit posts on this resourse, which rules you should follow when editing existing or creating new post.
+<div class="note warning">
+  <h5>Editing policy is important part of this project</h5>
+  <p>
+    This article will explain how to edit posts on this resourse and which rules you should follow when editing existing or creating new post to make your pull request merged without glithes. <b>Please read it carefully before joining editors team!</b>
+  </p>
+</div>
 
 * TOC
 {:toc}
@@ -19,7 +24,7 @@ This post will explain how to edit posts on this resourse, which rules you shoul
 <div class="note unreleased">
   <h5>This post is still under construction</h5>
   <p>
-    Sorry, post is not published yet and this is placeholder only. This will be changed very soon.
+    Sorry, post is not ready to be published yet and this is placeholder only for internal use. This will be changed very soon.
   </p>
 </div>
 
