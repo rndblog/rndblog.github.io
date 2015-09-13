@@ -201,10 +201,10 @@
 	top: 8px;
 }
 
-p~ul {
+p~ul, p~ol {
 	margin-top: -1.2em;
 }
 
-ul p {
+ul p, ol p {
 	margin-bottom: 0em;
 }
