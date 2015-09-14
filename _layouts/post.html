@@ -57,7 +57,7 @@ post_class: post-template
         <section class="post-content">
 
             <!-- Edit note -->
-            {% if site.editable != false and page.editable != false %}
+            {% if site.editable == true and page.editable != false %}
                 {% include edit_note.html %}
             {% endif %}
 
@@ -119,7 +119,7 @@ post_class: post-template
             {% include share.html %}
 
             <!-- Edit note -->
-            {% if site.editable == false or page.editable == false %}
+            {% if site.editable == true and page.editable == false %}
                 {% include noedit_note.html %}
             {% endif %}
             
