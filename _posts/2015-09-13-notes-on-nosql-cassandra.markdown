@@ -15,7 +15,7 @@ editable: false
 **Cassandra** is the free and open-source database, written in Java. Datastax make business mostly on a support. Used by many clients, Netflix shown benchmarks with "[Over a million writes per second on AWS](http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html)" (see also [presentation](http://www.slideshare.net/adrianco/cassandra-performance-on-aws))
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
-[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
+[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/13/notes-on-nosql-basics.html)  
 [Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
 **[Notes on NoSQL : Years in production with Apache Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)**  
 [Notes on NoSQL : Apache HBase, database on the top of Hadoop](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  

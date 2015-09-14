@@ -15,7 +15,7 @@ editable: false
 **Aerospike** is the flash-optimized in-memory [wide-column database with schema-less data model](http://www.aerospike.com/docs/guide/kvs.html) with [strong typization](http://www.aerospike.com/docs/guide/data-types.html) and [large collections](http://www.aerospike.com/docs/guide/ldt.html). Written in C. JSON is not supported, [the only way to store JSON is a string or decomposition to List/Map](https://github.com/aerospike/complex-data-types).
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
-[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
+[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/13/notes-on-nosql-basics.html)  
 [Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
 [Notes on NoSQL : Years in production with Apache Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)  
 [Notes on NoSQL : Apache HBase, database on the top of Hadoop](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  

@@ -15,7 +15,7 @@ editable: false
 **MongoDB** is **Open-source** (GNU AGPL v3.0), written in C, CPP and JavaScript. So no freezes due to GC. [Used by](https://www.mongodb.org/community/deployments) Craigslist, eBay, Foursquare, SourceForge, Viacom, The New York Times etc.
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
-[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
+[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/13/notes-on-nosql-basics.html)  
 **[Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)**  
 [Notes on NoSQL : Years in production with Apache Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)  
 [Notes on NoSQL : Apache HBase, database on the top of Hadoop](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  

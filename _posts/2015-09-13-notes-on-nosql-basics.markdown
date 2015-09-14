@@ -17,7 +17,7 @@ NoSQL is frequently named a brand-new and modern "silver bullet" for all challen
 In this article I'll try to explain why NoSQL technology was re-invented, which challenges returned this old technology back to life, strengths and weakness and usecases. Understanding of this is important to choose right technology for your case.
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
-**[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)**  
+**[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/13/notes-on-nosql-basics.html)**  
 [Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
 [Notes on NoSQL : Years in production with Apache Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)  
 [Notes on NoSQL : Apache HBase, database on the top of Hadoop](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  
