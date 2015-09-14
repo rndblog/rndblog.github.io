@@ -11,7 +11,7 @@ author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco
 editable: false
 ---
 
-In this article we will overview one of the NoSQL databases, **Cassandra**. We will review architecture, key strengths and weakness and usage experience, if available.
+**Cassandra** is the free and open-source database, written in Java. Datastax make business mostly on a support. Used by many clients, Netflix shown benchmarks with "[Over a million writes per second on AWS](http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html)" (see also [presentation](http://www.slideshare.net/adrianco/cassandra-performance-on-aws))
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
 [Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
@@ -44,10 +44,6 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 
 * TOC
 {:toc}
-
-**Cassandra** is the free and Open-source database, written in Java. Datastax make business mostly on a support.
-
-Used by many clients, Netflix shown benchmarks with "[Over a million writes per second on AWS](http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html)" (see also [presentation](http://www.slideshare.net/adrianco/cassandra-performance-on-aws))
 
 **Wide-column** database (group of columns associated with the single key) based on [Log-Structured Merge-Tree](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.2782). [Datafiles are organized as SSTable](http://teddyma.gitbooks.io/learncassandra/content/model/where_is_data_stored.html) (SSTable is a simple abstraction to efficiently store large numbers of key-value pairs while optimizing for high throughput, sequential read/write workloads, so key cache, row cache and indexes are used).
 

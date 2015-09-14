@@ -11,7 +11,7 @@ author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco
 editable: false
 ---
 
-In this article we will overview one of the NoSQL databases, **HBase**. We will review architecture, key strengths and weakness and usage experience, if available.
+**HBase** is the key-value NoSQL DB build on top of HDFS (distributed file system). Written on Java, distributed with the most of Hadoop distributions. HBase is also **wide-column** and similar file format and architecture as Cassandra. HBase supports a "bytes-in/bytes-out".
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
 [Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
@@ -44,10 +44,6 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 
 * TOC
 {:toc}
-
-**HBase** is the key-value NoSQL DB build on top of HDFS (distributed file system). Written on Java, distributed with the most of Hadoop distributions.
-
-HBase is also **wide-column** and similar file format and architecture as Cassandra. HBase supports a "bytes-in/bytes-out".
 
 # Architecture
 

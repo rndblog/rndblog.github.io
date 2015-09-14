@@ -11,7 +11,7 @@ author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco
 editable: false
 ---
 
-In this article we will overview one of the NoSQL databases, **MongoDB**. We will review architecture, key strengths and weakness and usage experience, if available.
+**MongoDB** is **Open-source** (GNU AGPL v3.0), written in C, CPP and JavaScript. So no freezes due to GC. [Used by](https://www.mongodb.org/community/deployments) Craigslist, eBay, Foursquare, SourceForge, Viacom, The New York Times etc.
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
 [Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
@@ -44,10 +44,6 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 
 * TOC
 {:toc}
-
-**MongoDB** is **Open-source** (GNU AGPL v3.0), written in C, CPP and JavaScript. So no freezes due to GC.
-
-[Used by](https://www.mongodb.org/community/deployments) Craigslist, eBay, Foursquare, SourceForge, Viacom, The New York Times etc.
 
 **Document-oriented** database with JSON-like ([BSON](https://en.wikipedia.org/wiki/BSON), Binary JSON) documents with dynamic scheme, so **schema is flexible**. Able to operate document part (object field(s)). The maximum BSON document size is 16 megabytes, document can be hierarchical. 
 

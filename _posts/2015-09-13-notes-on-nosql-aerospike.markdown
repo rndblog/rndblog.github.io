@@ -11,7 +11,7 @@ author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco
 editable: false
 ---
 
-In this article we will overview one of the NoSQL databases, **Aerospike**. We will review architecture, key strengths and weakness and usage experience, if available.
+**Aerospike** is the flash-optimized in-memory [wide-column database with schema-less data model](http://www.aerospike.com/docs/guide/kvs.html) with [strong typization](http://www.aerospike.com/docs/guide/data-types.html) and [large collections](http://www.aerospike.com/docs/guide/ldt.html). Written in C. JSON is not supported, [the only way to store JSON is a string or decomposition to List/Map](https://github.com/aerospike/complex-data-types).
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
 [Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
@@ -44,10 +44,6 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 
 * TOC
 {:toc}
-
-Aerospike is the flash-optimized in-memory [wide-column database with schema-less data model](http://www.aerospike.com/docs/guide/kvs.html) with [strong typization](http://www.aerospike.com/docs/guide/data-types.html) and [large collections](http://www.aerospike.com/docs/guide/ldt.html). Written in C.
-
-JSON is not supported, [the only way to store JSON is a string or decomposition to List/Map](https://github.com/aerospike/complex-data-types).
 
 # Architecture
 

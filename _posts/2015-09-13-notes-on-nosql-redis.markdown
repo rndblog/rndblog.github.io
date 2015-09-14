@@ -11,7 +11,7 @@ author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco
 editable: false
 ---
 
-In this article we will overview one of the NoSQL databases, **Redis**. We will review architecture, key strengths and weakness and usage experience, if available.
+**Redis** is the open-source (BSD license ) [key-value cache and store](http://redis.io/documentation), written in C. [Single-thread](http://redis.io/topics/clients) and [memory-optimized](http://redis.io/topics/memory-optimization). [Used by](http://redis.io/topics/whos-using-redis) Twitter, GitHub,  Pinterest, Craigslist, Digg, StackOverflow, Flickr.
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
 [Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
@@ -44,10 +44,6 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 
 * TOC
 {:toc}
-
-**Redis** is the open-source (BSD license ) [key-value cache and store](http://redis.io/documentation), written in C. [Single-thread](http://redis.io/topics/clients) and [memory-optimized](http://redis.io/topics/memory-optimization).
-
-[Used by](http://redis.io/topics/whos-using-redis) Twitter, GitHub,  Pinterest, Craigslist, Digg, StackOverflow, Flickr.
 
 [Value typed, base types supported](http://redis.io/topics/data-types-intro): [binary-safe strings, lists, sets, sorted sets, maps, bit arrays and HyperLolLogs](http://redis.io/topics/data-types) (probabilistic data structure used in order to count unique things, technically this is referred to estimating the cardinality of a set). 
 
