@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Cassandra"
+title:  "Notes on NoSQL : Years in production with Apache Cassandra"
 date:   2015-09-13 16:00:00
+update: 2015-09-14 12:55:00
 categories: NoSQL Architecture
 comments: true
 author_name: "Dmytro Sotnyk"
@@ -14,12 +15,12 @@ editable: false
 **Cassandra** is the free and open-source database, written in Java. Datastax make business mostly on a support. Used by many clients, Netflix shown benchmarks with "[Over a million writes per second on AWS](http://techblog.netflix.com/2011/11/benchmarking-cassandra-scalability-on.html)" (see also [presentation](http://www.slideshare.net/adrianco/cassandra-performance-on-aws))
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
-[Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
-[Notes on NoSQL : MongoDB](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
-**[Notes on NoSQL : Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)**  
-[Notes on NoSQL : HBase](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  
-[Notes on NoSQL : Redis](/nosql/architecture/2015/09/13/notes-on-nosql-redis.html)  
-[Notes on NoSQL : Aerospike](/nosql/architecture/2015/09/13/notes-on-nosql-aerospike.html)  
+[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
+[Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
+**[Notes on NoSQL : Years in production with Apache Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)**  
+[Notes on NoSQL : Apache HBase, database on the top of Hadoop](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  
+[Notes on NoSQL : Redis, pretty simple and jet fast cache](/nosql/architecture/2015/09/13/notes-on-nosql-redis.html)  
+[Notes on NoSQL : Aerospike and risqué promises](/nosql/architecture/2015/09/13/notes-on-nosql-aerospike.html)  
 
 <div class="note unreleased">
   <h5>Early Preview version</h5>

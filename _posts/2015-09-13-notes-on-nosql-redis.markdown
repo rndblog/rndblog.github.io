@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Redis"
+title:  "Notes on NoSQL : Redis, pretty simple and jet fast cache"
 date:   2015-09-13 18:00:00
+update: 2015-09-14 12:55:00
 categories: NoSQL Architecture
 comments: true
 author_name: "Dmytro Sotnyk"
@@ -14,12 +15,12 @@ editable: false
 **Redis** is the open-source (BSD license ) [key-value cache and store](http://redis.io/documentation), written in C. [Single-thread](http://redis.io/topics/clients) and [memory-optimized](http://redis.io/topics/memory-optimization). [Used by](http://redis.io/topics/whos-using-redis) Twitter, GitHub,  Pinterest, Craigslist, Digg, StackOverflow, Flickr.
 
 This is the one of the few articles in "Notes on NoSQL" sequence  
-[Notes on NoSQL : Basics](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
-[Notes on NoSQL : MongoDB](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
-[Notes on NoSQL : Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)  
-[Notes on NoSQL : HBase](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  
-**[Notes on NoSQL : Redis](/nosql/architecture/2015/09/13/notes-on-nosql-redis.html)**  
-[Notes on NoSQL : Aerospike](/nosql/architecture/2015/09/13/notes-on-nosql-aerospike.html)  
+[Notes on NoSQL : Basics and key differences between relational and NoSQL databases](/nosql/architecture/2015/09/12/notes-on-nosql-basics.html)  
+[Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future](/nosql/architecture/2015/09/13/notes-on-nosql-mongodb.html)  
+[Notes on NoSQL : Years in production with Apache Cassandra](/nosql/architecture/2015/09/13/notes-on-nosql-cassandra.html)  
+[Notes on NoSQL : Apache HBase, database on the top of Hadoop](/nosql/architecture/2015/09/13/notes-on-nosql-hbase.html)  
+**[Notes on NoSQL : Redis, pretty simple and jet fast cache](/nosql/architecture/2015/09/13/notes-on-nosql-redis.html)**  
+[Notes on NoSQL : Aerospike and risqué promises](/nosql/architecture/2015/09/13/notes-on-nosql-aerospike.html)  
 
 <div class="note unreleased">
   <h5>Early Preview version</h5>
