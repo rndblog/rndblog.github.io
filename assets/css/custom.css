@@ -94,7 +94,7 @@
 	top: -10px;
 	width: 0;
 }
-.note h5,.note p
+.note h5, .post-content .note h5, .note p
 {
 	color: #fff;
 	margin: 0;
@@ -207,4 +207,39 @@ p~ul, p~ol {
 
 ul p, ol p {
 	margin-bottom: 0em;
+}
+
+.align_right{
+     text-align: right;
+}
+
+.post-content h1 {
+    font-size: 3.5rem;
+}
+
+.post-content h2 {
+    font-size: 3rem;
+
+}
+
+.post-content h3 {
+    font-size: 2.6rem;
+    color: grey;
+}
+
+.post-content h4 {
+    font-size: 2.3rem;
+    color: grey;
+    text-decoration: underline;
+}
+
+.post-content h5 {
+    font-size: 2rem;
+    color: grey;
+}
+
+.post-content h6 {
+    font-size: 1.6rem;
+    color: grey;
+    font-style: italic;
 }

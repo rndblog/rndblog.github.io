@@ -78,7 +78,7 @@ comments: true
 author_name: "Dmytro Sotnyk"
 author_url: "http://sotnikdv.github.io"
 author_image: "http://sotnikdv.github.io/assets/images/profile.png"
-author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can find me also in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
+author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco, USA. You can subscribe to my new posts in my <a href="http://sotnikdv.github.io">personal blog</a> or find me in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 {% endhighlight %}
 
@@ -94,8 +94,11 @@ If you need more markup functionality, you can use different **Markdown** conver
 
 I've used [Textile](https://github.com/jekyll/jekyll-textile-converter), see [beautiful manual](http://redcloth.org/textile). Then switched to [Kramdown](http://kramdown.gettalong.org/) to get automatic ToC
 
-So this resource currently using **Kramdown**
+So this resource currently using **Kramdown**. 
 
+### Kramdown Extention syntax
+
+See [Kramdown Quick Reference](http://kramdown.gettalong.org/quickref.html) and [Kramdown Syntax](http://kramdown.gettalong.org/syntax.html) for additinal markup features.
 
 ## How to install and run **Jekyll** locally to get preview
 
