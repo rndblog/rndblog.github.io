@@ -93,13 +93,9 @@ Some features of Redis will not be available with partitioning:
 
 Client side partitioning means that the clients directly select the right node where to write or read a given key. Many Redis clients implement client side partitioning.
 
-[TODO add schema]
-
 #### Proxy assisted partitioning
 
 Proxy assisted partitioning means that our clients send requests to a proxy that is able to speak the Redis protocol, instead of sending requests directly to the right Redis instance. The proxy will make sure to forward our request to the right Redis instance accordingly to the configured partitioning schema, and will send the replies back to the client. The Redis and Memcached proxy [Twemproxy](https://github.com/twitter/twemproxy) implements proxy assisted partitioning.
-
-[TODO add schema]
 
 ### Fault-tolerance
 
@@ -121,7 +117,7 @@ Sentinel is a distributed system of a Sentinel processes with auto-discovery.
 
 The sum of Sentinels, Redis instances (masters and slaves) and clients connecting to Sentinel and Redis, are also a larger distributed system with specific properties.
 
-[TODO add schema]
+![image alt text](/assets/posts/2015-09-10-notes-on-nosql/image_14.0.png)
 
 Quorum (configurable) of Sentinel processes may decide that master is dead and elect new master from slaves informing clients. Client **need to support Sentinel**.
 
@@ -145,9 +141,7 @@ Query routing means that you can send your query to a random instance, and the i
 
 Redis Cluster is the preferred way to get **automatic sharding** and **high availability**. It is generally available and production-ready as of [April 1st, 2015](https://groups.google.com/d/msg/redis-db/dO0bFyD_THQ/Uoo2GjIx6qgJ)
 
-![image alt text](/assets/posts/2015-09-10-notes-on-nosql/image_14.png)
-
-[TODO Rewrite schema]
+![image alt text](/assets/posts/2015-09-10-notes-on-nosql/image_14.1.png)
 
 ### Sharding
 
