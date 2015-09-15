@@ -321,7 +321,7 @@ Document databases provide the ability to query on any field within a document.
 
 Some products provide indexing options to optimize queries, some of these products provide the ability to analyze data in place, without it needing to be replicated to dedicated analytics or search engines. 
 
-Examples: **MongoDB** and **CouchDB**
+Examples: **MongoDB** and **CouchBase**
 
 ### **Graph stores** 
 
@@ -379,7 +379,7 @@ Need to distinguish **view consistency** and **replica consistency**. **Replicas
 
 Some systems like **Riak** use vector clocks to determine **the ordering** of events and to ensure that the most recent operation wins in the case of a conflict. 
 
-Other systems like **CouchDB** **retain all conflicting values** and push the responsibility to resolving conflict back to the user. 
+Other systems like **CouchBase** **retain all conflicting values** and push the responsibility to resolving conflict back to the user. 
 
 Another approach, followed by **Cassandra**, is simply to assume the **latest value is the correct one**. 
 
