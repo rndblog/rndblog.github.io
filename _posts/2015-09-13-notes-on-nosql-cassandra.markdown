@@ -37,11 +37,19 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 </div>
 
 <div class="note info">
-  <h5>This post is a summary, so you have to read all references</h5>
+  <h5>This post is the summary (compilation) from many sources, you have to read all references</h5>
   <p>
-    This post is a brief summary and not intended to explain all related terms, but provides references instead. Please read all related materials. If some references missed - please improve the article.
+    Post is not intended to explain all related terms or re-write all information from origins. So, please consider this post as the "navigation map" and read all references in the text body and in the end of the post.
   </p>
 </div>
+
+<div class="note info">
+  <h5>A special thanks to <a href="http://griddynamics.com">Grid Dynamics Inc.</a> and colleagues from the author</h5>
+  <p>
+    This post was initially written as notes in my personal time, in the period when I worked on related topic for Grid Dynamics Inc. <br/>I'd like to thanks to the company and colleagues for the great support and knowledge shared. Personal thanks to <a href="https://www.linkedin.com/pub/ivan-ukolov/18/888/4b5">Ivan Ukolov</a> and <a href="https://www.linkedin.com/in/stryuber">Sergey Tryuber</a>
+  </p>
+</div>
+
 
 * TOC
 {:toc}

@@ -25,9 +25,16 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 [Notes on NoSQL : Aerospike and risqué promises](/nosql/architecture/2015/09/13/notes-on-nosql-aerospike.html)  
 
 <div class="note info">
-  <h5>This post is a summary, so you have to read all references</h5>
+  <h5>This post is the summary (compilation) from many sources, you have to read all references</h5>
   <p>
-    This post is a brief summary and not intended to explain all related terms, but provides references instead. Please read all related materials. If some references missed - please improve the article.
+    Post is not intended to explain all related terms or re-write all information from origins. So, please consider this post as the "navigation map" and read all references in the text body and in the end of the post.
+  </p>
+</div>
+
+<div class="note info">
+  <h5>A special thanks to <a href="http://griddynamics.com">Grid Dynamics Inc.</a> and colleagues from the author</h5>
+  <p>
+    This post was initially written as notes in my personal time, in the period when I worked on related topic for Grid Dynamics Inc. <br/>I'd like to thanks to the company and colleagues for the great support and knowledge shared. Personal thanks to <a href="https://www.linkedin.com/in/stryuber">Sergey Tryuber</a>
   </p>
 </div>
 
@@ -39,17 +46,17 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 
 ## Why NoSQL was reinvented
 
-[NoSQL databases](https://en.wikipedia.org/wiki/NoSQL) ("non-SQL" or "non-relational") are not new, they have existed since the late 1960s and was generously forgotten in favor of relational databases, which was able to deal with data size and load and provide **strong consistency**, **ACID guarantees**, **transactions** and **rich query language**.
+[NoSQL databases](https://en.wikipedia.org/wiki/NoSQL) ("non-SQL" or "non-relational") are not new, they have existed since the late 1960s and was generously forgotten in favor of relational databases, which was able to deal with data size, load and provide **strong consistency**, **ACID guarantees**, **transactions** and **rich query language**.
 
-These key characteristics of **relational databases** was a direct result of **centralized architecture** and **relational databases** was perfect as [System of Record](https://en.wikipedia.org/wiki/System_of_record). The reverse side of this architectural approach, absence of **horizontal scalability**, wasn't critical, 'cause data size and load was relatively small and **vertical scalability** was enough to deal with.
+These key characteristics of **relational databases** was a direct result of **centralized architecture** and **relational databases** was perfect as a [System of Record](https://en.wikipedia.org/wiki/System_of_record). The reverse side of this architectural approach, absence of **horizontal scalability**, wasn't critical, 'cause data size and load was relatively small and **vertical scalability** was enough to deal with.
 
-Things changed with [Big Data](https://en.wikipedia.org/wiki/Big_data) era, which added new challenges and these challenges was exactly in area of the biggest weakness of relational databases. While requirements of a [System of Record](https://en.wikipedia.org/wiki/System_of_record) is widely known, let’s highlight key challenges of [Big Data](https://en.wikipedia.org/wiki/Big_data) area:
+Things was changed with [Big Data](https://en.wikipedia.org/wiki/Big_data) era, which added new challenges and these challenges was exactly in area of the biggest weakness of relational databases. While requirements to a [System of Record](https://en.wikipedia.org/wiki/System_of_record) is widely known, let’s highlight key challenges of [Big Data](https://en.wikipedia.org/wiki/Big_data) area:
 
-* **Velocity** - query/updates are exceptionally fast or large
+* **Velocity** - query/update requests are exceptionally fast or large
 
 * **Volume** - store a massive amount of data at rest
 
-* **Variety** - The structure of records varies dramatically
+* **Variety** - structure of records varies dramatically
 
 **Centralized architecture** of **relational databases** become serious restriction to deal with BigData challenges.
 
@@ -75,19 +82,19 @@ Of course, different architectural solutions and tunable settings of Relational 
 
 ## Why NoSQL become so popular
 
-Well, the main reason for NoSQL popularity it's a current challenges. More and more usecases require **3V**, **high availability** and **continuous availability** and ready to sacrifice strong consistency, transactions and relational model. So "new" architectural approach of NoSQL is more suitable.
+Well, the main reason for NoSQL popularity it's a current challenges. More and more usecases require **3V**, **high availability** and **continuous availability** and ready to sacrifice strong consistency, transactions and relational model. So "new" architectural approach of NoSQL is more suitable for most of the modern cases.
 
-Another reason is the fact, that modern NoSQL databases, as was said above, become highly tunable and may provide various balance in the trade-offs described, like tunable and conditional consistency, persistency etc. vs scalability and performance. So weakness and performance of NoSQL become highly tunable in a big range.
+Another reason is the fact, that modern NoSQL databases, as was said above, become highly tunable and may provide various balance in the trade-offs described, like tunable and conditional consistency, persistency etc. vs scalability and performance. So weakness and performance of NoSQL become highly tunable in a wide range.
 
-The same is true for relational databases, so this is why "Space of requirements and limitations between corner cases" on the previous picture is so big.
+The same is true for relational databases, so this is why "Space of requirements and limitations between corner cases" on the previous picture is so wide.
 
-So, there is no "silver bullet" or universal solution for every case. Every tool and configuration of a tool need to be chosen for particular case accordingly to project’s requirements. So question "What’s better, Relational or NoSQL database?" is meaningless until will be followed by “... for this particular case”.
+So, there is no "silver bullet" or universal solution for every case. Every tool and configuration of a tool need to be chosen for particular case accordingly to project’s requirements. Question "What’s better, Relational or NoSQL database?" is meaningless until will be followed by “... for this particular case”.
 
 ## Most important trade-offs between relational and NoSQL databases
 
 Here is the list of key differences between relational and NoSQL databases. Keep in mind, that modern databases are highly tunable, so some trade-offs may be changed by proper configuration:
 
-1. **Centralized** and **Distributed** architecture as a key to strengths of both solutions (**Consistency**, **Transactions**, **ACID**, **Durability** and **Velocity**, **Volume**, **Availability**)
+1. **Centralized** and **Distributed** architecture as the key to strengths of both solutions (**Consistency**, **Transactions**, **ACID**, **Durability** and **Velocity**, **Volume**, **Availability**)
 1. Mostly **Vertical** vs **Vertical** and **Horizontal scalability** due to **centralized** and **partitioned/replicated** storage
 1. True **transactions** vs mostly **record-level atomicity**
 1. **Relational model** with **normalization** vs **de-normalized non-relational model**
@@ -115,31 +122,31 @@ This make NoSQL databases good to deal with **high data volume** and **high data
 
 ## Transactions
 
-**Transactions** are much more expensive, complex in a distributed environment and may affect performance, so this is one more trade-off with performance. This is the reason why transactions are, in general, not supported in NoSQL (*Some NoSQL implementations may offer similar functionality. For example, Oracle's NoSQL offers transactional control over data written to one node and let choose consistency across multiple nodes. For perfect consistency it will wait for each write to reach all nodes*).
+**Transactions** are much more expensive and complex in a distributed environment and may affect performance, so this is one more trade-off with performance. This is the reason why transactions are, in general, not supported in NoSQL (*Some NoSQL implementations may offer similar functionality. For example, Oracle's NoSQL offers transactional control over data written to one node and let choose consistency across multiple nodes. For perfect consistency it will wait for each write to reach all nodes*).
 
 Some NoSQL databases (for example Intersystems Cache) may provide full transaction support but with significant impact to performance, as was explained above.
 
-Nevertheless, NoSQL database provide atomicity on for a single record change.
+Nevertheless, NoSQL database provide atomicity for a single record change.
 
 ## Relational and non-relational data model
 
-RDBMS are based on **relational model** of data with **pre-defined schema**. This  is a key for **referential data consistency** and **normalization** in RDBMS. In RDBMS data are normalized and stored in a set of tables with relations and **referential integrity constraints**.
+RDBMS are based on **relational model** of data with **pre-defined schema**. This  is the key for **referential data consistency** and **normalization** in RDBMS. In RDBMS data are normalized and stored in a set of tables with relations and **referential integrity constraints**.
 
-NoSQL is based on **record-centric** approach (document oriented, graph, key-value, wide column etc.) which is a good for data **partitioning**, **scalability** and fast read-write. As a result, in NoSQL data stored in de-normalized form in a few independent tables. So there is no links to other keys, no relations between records, no automatic reference constraint checks.
+NoSQL is based on **record-centric** approach (document oriented, graph, key-value, wide column etc.) which is good for data **partitioning**, **scalability** and fast read-write. As a result, in NoSQL data stored in de-normalized form in a few independent tables. So there is no links to other keys, no relations between records, no automatic reference constraint checks.
 
-In NoSQL data model usually have no pre-defined schema, schema is **flexible**. Data types are supported. On one hand this is a easy way to deal with 3rd challenge of Big Data - **Data Variety** and schema change, on the other hand pre-defined schema may guarantee more data consistency.
+In NoSQL data model usually have no pre-defined schema, schema is **flexible**, but data types are supported. On one hand this is an easy way to deal with 3rd challenge of Big Data - **Data Variety** and schema change, on the other hand pre-defined schema may guarantee more data consistency.
 
 ## Indexes support
 
 As well as transactions, indexes implementation and maintenance is more complex in distributed databases and on data models with flexible schema. This means that NoSQL indexes support usually less advanced than in RDBMS due to trade-off with performance.
 
-In most NoSQL databases indexes are **local** (each node store indexes for local data) and distributed over the cluster, so cross-partition search request will be sent to multiple (all) nodes in parallel. Some NoSQL databases may provide **global indexes** (which cover all data partitions) with different limitations.
+In most NoSQL databases indexes are **local** (each node store indexes for a local part of data) and distributed over a cluster, so cross-partition search request will be sent to multiple (all) nodes in parallel. Some NoSQL databases may provide **global indexes** (which cover all data partitions) with different limitations.
 
 ## How to query and manipulate data
 
 RDBMS and relational data model is good for heavy queries, which operate multiple data tables with complex conditions, aggregations and different transaction isolation levels.
 
-NoSQL is good for series of lightweight record read-write queries by a key and usually doesn’t provide aggregations and filtering. Also atomicity is supported on record level.
+NoSQL is good for series of lightweight record read-write queries by a key and usually doesn’t provide aggregations and filtering. Also atomicity is usually supported on record level only.
 
 Since most NoSQL databases lack ability for joins in queries, the database schema generally needs to be designed differently. [There are three main techniques for handling relational data in a NoSQL database](https://en.wikipedia.org/wiki/NoSQL#Handling_relational_data):
 
@@ -153,15 +160,15 @@ To simplify data access NoSQL databases may offer **Query Language**, **Entry Pr
 
 ### Query Language in NoSQL
 
-Many NoSQL databases provide different **Query Languages** which allow to query/update multiple records with filtering. Such **Query Language** usually provides significantly limited subset (no joining or aggregation functions) of SQL functionality due to trade-off with performance in distributed systems. Instead of this, some NoSQL databases may offer **Entry Processors** and **Aggregation Framework**, see below.
+Many NoSQL databases provides various **Query Languages** which allow to query/update multiple records with filtering. Such **Query Language** usually provides limited subset (no joins or aggregation functions) of SQL functionality due to trade-off with performance in distributed systems. Instead of this, some NoSQL databases may offer **Entry Processors** and **Aggregation Framework**, see below.
 
 Some NoSQL databases may provide SQL92, but, as was discussed, this will significantly decrease performance.
 
 ### Entry Processors in NoSQL
 
-**Entry Processor** is a custom code unit which is executed inside a database for bulk data processing on the node, which store a data. This feature may be provided by some NoSQL databases for analytics and data mining.
+**Entry Processor** is a custom code unit which is executed inside a database for a bulk data processing on the node, which store a data. This feature may be provided by some NoSQL databases for analytics and data mining.
 
-Also **Entry Processors** may process data streams, returned by query on Query Language or may be triggered on write event.
+Also **Entry Processors** may process data streams, returned by a query on a Query Language or may be triggered on write event.
 
 ### Aggregation Framework in NoSQL
 
@@ -175,7 +182,7 @@ By [shared nothing architecture](https://en.wikipedia.org/wiki/Shared_nothing_ar
 
 As was discussed, on the other side this architecture approach make hard to maintain indexes and queries, which require data from different shards.
 
-Different NoSQL databases provide different sharding algos, configurable and automatic.
+Different NoSQL databases provide different sharding algos, configurable and/or automatic.
 
 Some RDBMS may offer sharding, but in NoSQL this is key architectural property.
 
@@ -183,11 +190,11 @@ Some RDBMS may offer sharding, but in NoSQL this is key architectural property.
 
 To achieve **High Availability** and **Disaster Recovery** many databases (Relational and NoSQL) use **Replication**.
 
-In NoSQL databases shards usually **replicated** between **cluster nodes** and this is one of the most important trade-offs (usually configurable) between consistency and performance in NoSQL world. Two parameters are most important: replicas count and how many replicas should be updated before write will be confirmed to client.
+In NoSQL databases shards usually **replicated** between **cluster nodes** and this is one of the most important trade-offs (usually configurable) between consistency and performance in NoSQL world. Two parameters are most important: replicas count and how many replicas should be updated before write will be **confirmed** to client.
 
 Different NoSQL databases may use master-slave and peer-to-peer replication inside a cluster.
 
-Some databases offer **rack-aware replication**, which tracks that replicas will in in different availability groups (racks or availability zones) 
+Some databases offer **rack-aware replication**, which tracks that replicas will written to different availability groups (racks or availability zones) 
 
 As for **cluster-to-cluster** (**cross-datacenter replication**, **XDR**), this functionality may be present in RDBMS and NoSQL databases.
 
@@ -199,7 +206,7 @@ The main problem of **distributed storage** such as NoSQL databases is a consist
 
 * Consistency, equivalent to having a single up-to-date copy of the data
 
-* Availability of that data (for updates)
+* Availability of that data **for updates**
 
 * Partition tolerance, ability of the system to operate when partitioned (due to network issues)
 
@@ -257,7 +264,7 @@ Unavailable models (red)
 
 * Regular
 
-Most of the NoSQL databases may be configured to have different balance in this trade-off and even in different conditions. For example Cassandra (which is marked as AP) can be also CP-system.
+Most of the NoSQL databases may be configured to have different balance in this trade-off and even in different conditions. For example Cassandra (which is marked as AP) can be also configured as CP-system.
 
 Non-distributed (non-partitionable) storages are not affected by this trade-off.
 
@@ -271,9 +278,9 @@ If system designed to be AP-compatible (available for data change and operate wh
 
 ## ACID and BASE
 
-[ACID (Atomicity, Consistency, Isolation, Durability)](https://en.wikipedia.org/wiki/ACID) is a set of properties that guarantee that database transactions are processed reliably. In the context of databases, a single logical operation on the data is called a transaction.
+[ACID (Atomicity, Consistency, Isolation, Durability)](https://en.wikipedia.org/wiki/ACID) is a set of properties that guarantee that database transactions are processed reliably. In the context of databases, a single logical operation on the data is called "transaction".
 
-Here is a summary fo how the **ACID** properties are interpreted by a relational DBMS:
+Here is the summary of how the **ACID** properties are interpreted by a relational DBMS:
 
 * **Atomicity** requires that each transaction is executed in its entirety, or fail without any change being applied.
 
@@ -301,13 +308,13 @@ In NoSQL databases this become possible because of distributed architecture, sha
 
 ## Persistence to disk
 
-There is different approaches when to confirm data write, usually this is tunable and this is one more trade-off between **reliability** and **performance**. 
+There are different approaches when to confirm data write, usually this is tunable and this is one more trade-off between **reliability** and **performance**. 
 
 Most RDBMS confirm write when data a persisted to file storage (data files, commit logs etc.). 
 
 Most NoSQL databases confirm write when changes are applied in memory plus (for some systems and settings) are distributed over few nodes. Writes to disk usually batched and asynchronous for better performance.
 
-It’s a highly discussible question - synchronous replication over the cluster(s) vs disk persistency.
+It’s a highly discussible question - synchronous replication over the cluster(s) vs synchronous disk persistency.
 
 # Common knowledge about NoSQL
 
@@ -319,7 +326,7 @@ Pair each key with a complex data structure known as a document. Documents can c
 
 Document databases provide the ability to query on any field within a document. 
 
-Some products provide indexing options to optimize queries, some of these products provide the ability to analyze data in place, without it needing to be replicated to dedicated analytics or search engines. 
+Some products provide indexing options to optimize queries, some of them also may provide ability to analyze data in place, without it needing to be replicated to dedicated analytics or search engines. 
 
 Examples: **MongoDB** and **CouchBase**
 
@@ -335,11 +342,11 @@ Examples: **Neo4J, Giraph** and **HyperGraphDB**.
 
 Most basic type of non-relational database. Every item in the database is stored as an attribute name, or key, together with its value. This model can be useful for representing polymorphic and unstructured data, as the database does not enforce a set schema across key-value pairs. 
 
-Provide the ability to retrieve and update data based only on a single or a limited range of primary keys. 
+Provides ability to retrieve and update data based only on a single or a limited range of primary keys. 
 
 For querying on other values, users are encouraged to build and maintain their own indexes. In this case, to perform an update in these systems, multiple round trips may be necessary: first find the record, then update it, then update the index. Some products provide limited support for secondary indexes. 
 
-Update may be implemented as a complete rewrite of the entire record irrespective of whether a single attribute has changed, or the entire record.
+Update may be implemented as a complete rewrite of the entire record irrespective of whether a single attribute has changed, or just changed attribute.
 
 Examples: **Riak**, **Voldemort** and **Redis**.
 
@@ -367,11 +374,9 @@ For example:
 
 - Cassandra may use quorum for read-write, which affects latency, but allow to keep consistency until tunable threshold of lost nodes.
 
-- In MongoDB, by default, data is consistent because all writes and reads access the primary copy of the data. As an option, read queries can be issued against secondary copies where data maybe eventually consistent if the write operation has not yet been synchronized with the
+- In MongoDB, by default, data consistent because all writes and reads access the primary copy of the data. As an option, read queries can be issued against secondary copies where data maybe eventually consistent if the write operation has not yet been synchronized with the secondary copy; the consistency choice is made at the query level. In case of primary **fail**, data may become inconsistent.
 
-secondary copy; the consistency choice is made at the query level. In case of primary **fail**, data may become inconsistent.
-
-Need to distinguish **view consistency** and **replica consistency**. **Replicas** in NoSQL solutions is a mostly **eventually consistent**.
+Need to distinguish **view consistency** and **replica consistency**. **Replicas** in NoSQL solutions are mostly **eventually consistent**.
 
 ## Merge in eventually consistent systems
 
@@ -497,7 +502,7 @@ This list is highly discussible and reflects personal experience of the author:
 
 - **Coherence** is a strong consistency system, so IO and network glitches may affect latency and throughput.
 
-# Additional Materials, required to read
+# Additional Materials, recommended to read
 
 [Strong consistency models](https://aphyr.com/posts/313-strong-consistency-models)
 
