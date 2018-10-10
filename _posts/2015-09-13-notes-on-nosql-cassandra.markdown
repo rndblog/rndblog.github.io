@@ -6,9 +6,9 @@ update: 2015-09-14 12:55:00
 categories: NoSQL Architecture
 comments: true
 author_name: "Dmytro Sotnyk"
-author_url: "http://sotnikdv.github.io"
-author_image: "http://sotnikdv.github.io/assets/images/profile.png"
-author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco, USA. You can subscribe to my new posts in my <a href="http://sotnikdv.github.io">personal blog</a> or find me in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
+author_url: "https://www.linkedin.com/in/sotnikdv"
+author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Software Engineer and Architect in San Francisco, USA. You can find me on <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 editable: false
 ---
 

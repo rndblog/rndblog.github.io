@@ -5,9 +5,9 @@ date:   2015-09-12 23:10:00
 categories: Common
 comments: true
 author_name: "Dmytro Sotnyk"
-author_url: "http://sotnikdv.github.io"
-author_image: "http://sotnikdv.github.io/assets/images/profile.png"
-author_bio: 'I`m Grid Architect at GridDynamics in San Francisco, USA. You can find me also in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
+author_url: "https://www.linkedin.com/in/sotnikdv"
+author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Software Engineer and Architect in San Francisco, USA. You can find me on <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 
 This post will explain how to create your articles with Markdown, Jekyll and GitHub which is a simple way to start your own blog or edit posts on this resource. We will be focused on how to write/edit/preview posts with Jekyll:
@@ -76,8 +76,8 @@ update: 2015-08-29 05:30:00
 categories: Common
 comments: true
 author_name: "Dmytro Sotnyk"
-author_url: "http://sotnikdv.github.io"
-author_image: "http://sotnikdv.github.io/assets/images/profile.png"
+author_url: "https://www.linkedin.com/in/sotnikdv"
+author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
 author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco, USA. You can subscribe to my new posts in my <a href="http://sotnikdv.github.io">personal blog</a> or find me in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 {% endhighlight %}
